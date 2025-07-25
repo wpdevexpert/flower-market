@@ -63,7 +63,7 @@
                         <h3 class="font-semibold mt-4">Uprooted Zinnia</h3>
                         <p class="text-black-500 font-semibold">15 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -73,7 +73,7 @@
                         <h3 class="font-semibold mt-4">Red Rose</h3>
                         <p class="text-black-500 font-semibold">12 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -83,7 +83,7 @@
                         <h3 class="font-semibold mt-4">Colorful Tulip</h3>
                         <p class="text-black-500 font-semibold">18 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -93,7 +93,7 @@
                         <h3 class="font-semibold mt-4">Lily Bouquet</h3>
                         <p class="text-black-500 font-semibold">22 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -103,7 +103,7 @@
                         <h3 class="font-semibold mt-4">Sunflower Set</h3>
                         <p class="text-black-500 font-semibold">25 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -113,7 +113,7 @@
                         <h3 class="font-semibold mt-4">Orchid Plant</h3>
                         <p class="text-black-500 font-semibold">32 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -123,7 +123,7 @@
                         <h3 class="font-semibold mt-4">Mixed Wildflowers</h3>
                         <p class="text-black-500 font-semibold">45 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -133,7 +133,7 @@
                         <h3 class="font-semibold mt-4">Datura flowers</h3>
                         <p class="text-black-500 font-semibold">99 USD</p>
                     </div>
-                    <button
+                    <button onclick="addToCartAlert()"
                         class="add-to-cart-btn w-full mt-2 bg-orange-500 text-white py-2 px-4 hover:bg-orange-600">Add
                         to Cart</button>
                 </div>
@@ -211,10 +211,49 @@
         </section>
     </main>
 
-    <footer>
-
+    <footer class="bg-white py-12 px-6 md:px-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+                <a href="index.html"><img src="assets/logo.png" alt=""></a>
+                <p class="text-gray-500">Your destination for fresh and beautiful flowers. Bringing nature's beauty to
+                    your doorstep.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Quick Link</h4>
+                <ul class="space-y-2 text-gray-500">
+                    <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                    <li><a href="#" class="hover:text-orange-500">Features</a></li>
+                    <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Supports</h4>
+                <ul class="space-y-2 text-gray-500">
+                    <li><a href="#" class="hover:text-orange-500">Help & Support</a></li>
+                    <li><a href="#" class="hover:text-orange-500">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-orange-500">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Social</h4>
+                <div class="flex justify-center md:justify-start items-center space-x-4">
+                    <a href="#" class="text-gray-500 hover:text-orange-500"><img src="assets/icon-facebook.png"
+                            alt=""></a>
+                    <a href="#" class="text-gray-500 hover:text-orange-500"><img src="assets/icon-linkedin.png"
+                            alt=""></a>
+                    <a href="#" class="text-gray-500 hover:text-orange-500"><img src="assets/icon-twitter.png"
+                            alt=""></a>
+                    <a href="#" class="text-gray-500 hover:text-orange-500"><img src="assets/icon-youtube.png"
+                            alt=""></a>
+                </div>
+            </div>
+        </div>
     </footer>
-
+    <script>
+        function addToCartAlert() {
+            alert("Flower Added to Cart");
+        }
+    </script>
 </body>
 
 </html>
