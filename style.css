@@ -2,3 +2,20 @@
     font-weight: 600;
     color: orange;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Noto Sans", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+}
